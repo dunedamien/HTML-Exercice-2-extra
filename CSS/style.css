@@ -1,0 +1,145 @@
+/*******************/
+
+/*utils*/
+
+/*******************/
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    text-align: center;
+    color: orange;
+    padding: 10px 0 0 10px;
+    float:left;
+    width: 100%;
+    background-color: #330033;
+}
+
+.centrage {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    color: #330033;
+}
+.clear {
+    clear: both;
+}
+/*******************/
+
+/*NavBar header*/
+
+/*******************/
+
+.bt_menu {
+    text-align: right;
+    font-size: 35px;
+    padding: 10px;
+}
+
+.bt_menu i {
+    padding: 10px;
+    border: 1px solid #222222;
+}
+
+.main_nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    display: none;
+}
+
+.main_nav a {
+    display: block;
+    padding: 10px 0;
+    margin-right: 15px;
+}
+
+.main_nav ul.show {
+    display: block;
+}
+
+.main_nav a:hover {
+    color: darkblue;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+@media screen and (min-width:480px) {
+    .bt_menu {
+        display: none;
+    }
+    nav {
+        background-color: #330033;
+    }
+    .main_nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: left;
+        color: white;
+        margin-left: 75.5906px;
+    }
+    .main_nav a {
+        padding: 10px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+}
+
+/*********************/
+
+/*   Contenu         */
+
+/*********************/
+
+main {
+    height: 150px;
+    width: 46%;
+    margin: 1%;
+    float: left;
+    text-align: center;
+    padding: 1%;
+    display: flex;
+}
+
+aside1 {
+    height: 150px;
+    width: 46%;
+    float: left;
+    padding: 1%;
+    display: flex;
+}
+.logo{
+    height: 160px;
+    width: auto;
+    margin : auto;
+    padding: 10px;
+}
+aside2{
+    display:block;
+    width: auto;
+    height: auto;
+    background-color:orange;
+    padding: 40px 40px 40px 100px;
+}
+#conteneur{
+    height:auto;
+    display:flex;
+}
+.contenu{
+    width: 40%;
+    height: auto;
+    margin-right: 50px;
+    display:flex;
+}
